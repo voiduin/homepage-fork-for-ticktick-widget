@@ -466,6 +466,11 @@
         "lxc": "LXC",
         "vms": "Virtuální Stroje"
     },
+    "pulse": {
+        "nodes": "Nodes",
+        "vms": "VMs",
+        "lxcs": "LXCs"
+    },
     "glances": {
         "cpu": "Využití procesoru",
         "load": "Zatížení",

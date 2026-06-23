@@ -466,6 +466,11 @@
         "lxc": "LXC",
         "vms": "VM"
     },
+    "pulse": {
+        "nodes": "Nodes",
+        "vms": "VMs",
+        "lxcs": "LXCs"
+    },
     "glances": {
         "cpu": "CPU",
         "load": "Load",

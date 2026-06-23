@@ -466,6 +466,11 @@
         "lxc": "LXC",
         "vms": "VMe"
     },
+    "pulse": {
+        "nodes": "Nodusse",
+        "vms": "VMe",
+        "lxcs": "LXCs"
+    },
     "glances": {
         "cpu": "SVE",
         "load": "Las",
@@ -937,17 +942,17 @@
         "criticals": "Kritici"
     },
     "ntfy": {
-        "title": "Title",
-        "priority": "Priority",
-        "lastReceived": "Last Received",
-        "message": "Message",
-        "tags": "Tags",
-        "none": "None",
+        "title": "Titel",
+        "priority": "Prioriteit",
+        "lastReceived": "Laas Ontvang",
+        "message": "Boodskap",
+        "tags": "Merkers",
+        "none": "Geen",
         "min": "Min",
-        "low": "Low",
-        "default": "Default",
-        "high": "High",
-        "urgent": "Urgent"
+        "low": "Laag",
+        "default": "Standaard",
+        "high": "Hoog",
+        "urgent": "Dringend"
     },
     "plantit": {
         "events": "Gebeure",

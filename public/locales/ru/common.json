@@ -466,6 +466,11 @@
         "lxc": "LXC",
         "vms": "Виртуальные машины"
     },
+    "pulse": {
+        "nodes": "Nodes",
+        "vms": "VMs",
+        "lxcs": "LXCs"
+    },
     "glances": {
         "cpu": "ЦП",
         "load": "Загрузка",

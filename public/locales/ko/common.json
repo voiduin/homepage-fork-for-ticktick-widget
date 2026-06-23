@@ -344,16 +344,16 @@
         "address": "주소",
         "expires": "만료",
         "never": "없음",
-        "user": "User",
-        "hostname": "Hostname",
-        "name": "Name",
-        "client_version": "Client Version",
-        "os": "OS",
-        "created": "Created",
-        "authorized": "Authorized",
+        "user": "사용자",
+        "hostname": "호스트네임",
+        "name": "이름",
+        "client_version": "클라이언트 버전",
+        "os": "운영체제",
+        "created": "생성됨",
+        "authorized": "승인됨",
         "is_external": "Is External",
-        "update_available": "Update Available",
-        "tags": "Tags",
+        "update_available": "새 업데이트 있음",
+        "tags": "태그",
         "last_seen": "마지막 접속",
         "now": "지금",
         "years": "{{number}}년",
@@ -363,8 +363,8 @@
         "minutes": "{{number}}분",
         "seconds": "{{number}}초",
         "ago": "{{value}} 전",
-        "true": "Yes",
-        "false": "No"
+        "true": "네",
+        "false": "아니오"
     },
     "technitium": {
         "totalQueries": "총 쿼리",
@@ -465,6 +465,11 @@
         "cpu": "CPU",
         "lxc": "LXC",
         "vms": "가상머신"
+    },
+    "pulse": {
+        "nodes": "Nodes",
+        "vms": "VMs",
+        "lxcs": "LXCs"
     },
     "glances": {
         "cpu": "CPU",
@@ -937,17 +942,17 @@
         "criticals": "심각"
     },
     "ntfy": {
-        "title": "Title",
-        "priority": "Priority",
-        "lastReceived": "Last Received",
-        "message": "Message",
-        "tags": "Tags",
-        "none": "None",
+        "title": "제목",
+        "priority": "우선순위",
+        "lastReceived": "마지막 수신",
+        "message": "메시지",
+        "tags": "태그",
+        "none": "없음",
         "min": "Min",
-        "low": "Low",
-        "default": "Default",
-        "high": "High",
-        "urgent": "Urgent"
+        "low": "낮음",
+        "default": "기본값",
+        "high": "높음",
+        "urgent": "긴급"
     },
     "plantit": {
         "events": "이벤트",

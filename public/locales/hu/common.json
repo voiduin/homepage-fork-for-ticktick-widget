@@ -466,6 +466,11 @@
         "lxc": "LXC-k",
         "vms": "VM-ek"
     },
+    "pulse": {
+        "nodes": "Nodes",
+        "vms": "VMs",
+        "lxcs": "LXCs"
+    },
     "glances": {
         "cpu": "Processzor",
         "load": "Terhelés",

@@ -466,6 +466,11 @@
         "lxc": "Linux kontejner",
         "vms": "Virtualni uređaji"
     },
+    "pulse": {
+        "nodes": "Nodes",
+        "vms": "VMs",
+        "lxcs": "LXCs"
+    },
     "glances": {
         "cpu": "CPU",
         "load": "Opterećenje",

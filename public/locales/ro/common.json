@@ -466,6 +466,11 @@
         "lxc": "Container",
         "vms": "Masini Virtuale"
     },
+    "pulse": {
+        "nodes": "Nodes",
+        "vms": "VMs",
+        "lxcs": "LXCs"
+    },
     "glances": {
         "cpu": "CPU",
         "load": "Load",

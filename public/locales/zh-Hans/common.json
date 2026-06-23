@@ -466,6 +466,11 @@
         "lxc": "容器",
         "vms": "虚拟机"
     },
+    "pulse": {
+        "nodes": "Nodes",
+        "vms": "VMs",
+        "lxcs": "LXCs"
+    },
     "glances": {
         "cpu": "CPU",
         "load": "负载",
