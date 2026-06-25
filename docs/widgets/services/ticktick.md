@@ -18,7 +18,12 @@ Requires an OAuth2 access token. Register an app at [developer.ticktick.com](htt
      -u "CLIENT_ID:CLIENT_SECRET" \
      -d "code=CODE&grant_type=authorization_code&redirect_uri=http://localhost"
    ```
-   The `access_token` in the response is your API key
+   The response also contains `expires_in` (seconds until expiry). **Note it down now** — once this terminal session is gone, there is no way to retrieve the expiry date from TickTick. Store it alongside the token:
+   ```
+   HOMEPAGE_VAR_TICKTICK_TOKEN=your_access_token
+   HOMEPAGE_VAR_TICKTICK_TOKEN_EXPIRES=2027-01-01  # date when the token expires
+   ```
+   When the token expires the widget will stop loading data. Renew it by repeating step 3.
 
 To find your project ID, open the [TickTick web app](https://ticktick.com/webapp/), click a list, and copy the hex ID from the URL: `#p/<projectId>/tasks`
 
